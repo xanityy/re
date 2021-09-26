@@ -7,6 +7,7 @@ end
 
 
 
+
 	if msg ==":kill "..game.Players.LocalPlayer.Name then    
 		game.Players.LocalPlayer.Character.Head:Destroy()
 
@@ -51,4 +52,4 @@ end
 		game.ReplicatedStorage.MainEvent:FireServer('GUI_CHECK')
 
 	end
-end
+end)
